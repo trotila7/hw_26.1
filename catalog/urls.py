@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-urlputterns = [
-    path('', views.home, name='home'),
-    path('contacts/', views.contacts, name='contacts')
+urlpatterns = [
+    path('', views.home, name='home'),  # Главная страница
+    path('contacts/', views.contacts, name='contacts'),  # Страница контактов
 ]
